@@ -4,7 +4,7 @@ Its a Place where I save batch exploits/scripts for use with a flipper zero.
 # Usage
 Feel Free to add or fork this even though there are way better exploits than mine
 
-__ USE THIS WITH PERMISION OR ON YOUR OWN MACHINE ANY ILLEGAL USE OF THIS IS NOT ON ME AND ENTIRELY YOUR FAULT YOU HAVE BEEN WARNED __
+__USE THIS WITH PERMISION OR ON YOUR OWN MACHINE ANY ILLEGAL USE OF THIS IS NOT ON ME AND ENTIRELY YOUR FAULT YOU HAVE BEEN WARNED__
 
 # Notes
 All of the files that any of these make you can turn that off by removing the "STRING attrib +h [filename]"
