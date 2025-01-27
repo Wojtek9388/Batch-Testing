@@ -11,5 +11,5 @@ All of the files that any of these make have the hidden flag enabled
 you can turn that off by removing the "STRING attrib +h [filename]"
 
 # How to use
-.txt Files are Put into the "SD Card/Badusb" (might be different on your flipper depending on hardware im using Unleased 79E currently)
+.txt Files are Put into the "SD Card/Badusb" (might be different on your flipper depending on firmware im using Unleased 79E currently)
 Everything else is downloaded through batch scripts
